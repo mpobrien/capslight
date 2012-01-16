@@ -31,7 +31,7 @@ static PyObject *led_setlight(PyObject *self, PyObject *args){
 }
 
 static PyMethodDef led_methods[] = {
-    {"setlight", (PyCFunction)led_setlight, METH_VARARGS, "Print a lovely skit to standard output."},
+    {"setlight", (PyCFunction)led_setlight, METH_VARARGS, "turn the led on or off"},
     {NULL, NULL, 0, NULL}   /* sentinel */
 };
 
